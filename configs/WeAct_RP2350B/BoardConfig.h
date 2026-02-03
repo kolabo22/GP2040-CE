@@ -9,7 +9,7 @@
 #include "enums.pb.h"
 #include "class/hid/hid.h"
 
-#define BOARD_CONFIG_LABEL "Pico2"
+#define BOARD_CONFIG_LABEL "WeAct_RP2350B"
 
 // Main pin mapping Configuration
 //                                                  // GP2040 | Xinput | Switch  | PS3/4/5  | Dinput | Arcade |
@@ -34,10 +34,14 @@
 
 // Setting GPIO pins to assigned by add-on
 //
-#define GPIO_PIN_00 GpioAction::ASSIGNED_TO_ADDON
-#define GPIO_PIN_01 GpioAction::ASSIGNED_TO_ADDON
-#define GPIO_PIN_15 GpioAction::ASSIGNED_TO_ADDON
-#define GPIO_PIN_28 GpioAction::ASSIGNED_TO_ADDON
+#define GPIO_PIN_40 GpioAction::ASSIGNED_TO_ADDON
+#define GPIO_PIN_41 GpioAction::ASSIGNED_TO_ADDON
+#define GPIO_PIN_42 GpioAction::ASSIGNED_TO_ADDON
+#define GPIO_PIN_43 GpioAction::ASSIGNED_TO_ADDON
+#define GPIO_PIN_44 GpioAction::ASSIGNED_TO_ADDON
+#define GPIO_PIN_45 GpioAction::ASSIGNED_TO_ADDON
+#define GPIO_PIN_46 GpioAction::ASSIGNED_TO_ADDON
+#define GPIO_PIN_47 GpioAction::ASSIGNED_TO_ADDON
 
 // Keyboard Mapping Configuration
 //                                            // GP2040 | Xinput | Switch  | PS3/4/5  | Dinput | Arcade |
