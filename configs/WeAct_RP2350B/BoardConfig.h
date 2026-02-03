@@ -5,12 +5,14 @@
 
 #define BOARD_NAME "WeAct_RP2350B"
 
-// 最小限の「設定モード用ピン」のみ定義
+// エラー回避のため表示機能を無効化
+#define HAS_I2C 0
+
+// 設定モード起動用ピン
 #define FORCED_SETUP_MODE_PIN 30
 
-// 基本機能の有効化のみ
+// 基本機能
 #define HAS_ANALOG_INPUT 1
-#define HAS_I2C 1
 
 #endif
 
