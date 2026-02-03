@@ -1,7 +1,6 @@
 {
-    "boardName": "WeAct RP2350B Full",
+    "boardName": "WeAct_RP2350B",
     "processor": "rp2350",
     "platform": "rp2350-arm-s",
     "extender": "none"
 }
-
