@@ -5,10 +5,17 @@
 
 #define BOARD_NAME "WeAct_RP2350B"
 
-// エラー回避のため表示機能を無効化
-#define HAS_I2C 0
+// 表示機能を物理的に無効化（I2C自体はシステムとして生かしておく）
+#define HAS_I2C 1
+#define I2C0_ENABLED 0
+#define I2C1_ENABLED 0
 #define DISPLAY_ENABLED 0
-#define HAS_DISPLAY 0
+
+// ピン未割り当ての設定 (-1 または 255)
+#define I2C0_SDA -1
+#define I2C0_SCL -1
+#define I2C1_SDA -1
+#define I2C1_SCL -1
 
 // 設定モード起動用ピン
 #define FORCED_SETUP_MODE_PIN 30
